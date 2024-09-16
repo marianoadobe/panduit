@@ -52,6 +52,10 @@ main .carousel div.carousel-text p {
   color: white;
 }
 
+main .carousel div.carousel-text h1 {
+  color: white;
+}
+
 main .carousel div.carousel-text h2 {
   margin: 0;
   margin-top: 16px; 
