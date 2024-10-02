@@ -38,18 +38,32 @@ main .carousel > div {
   display: flex;
 }
 
+main .carousel .slide {
+  border: solid 2px orange;
+  position: relative;
+}
+
 main .carousel div.carousel-text {
-  max-width: 1200px;
-  margin: 0 auto;
+  max-width: 600px;
+  /* margin: 0 auto; */
   background-color: transparent;
   min-height: 188px;
   padding: 0 28px;
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
 }
 
 main .carousel div.carousel-text p {
   margin: 10px 0 16px;
   line-height: 1.2;
   color: white;
+}
+
+main .carousel div.carousel-text p em {
+  color: black;
+  font-style: normal;
 }
 
 main .carousel h1 {
@@ -59,6 +73,13 @@ main .carousel h1 {
 main .carousel div.carousel-text h2 {
   margin: 0;
   margin-top: 16px; 
+  font-size: var(--heading-font-size-l);
+}
+
+main .carousel div.carousel-text h3 {
+  margin: 0;
+  margin-top: 16px; 
+  color: white;
 }
 
 main .carousel div.carousel-text .button {
