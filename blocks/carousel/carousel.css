@@ -39,7 +39,6 @@ main .carousel > div {
 }
 
 main .carousel .slide {
-  border: solid 2px orange;
   position: relative;
 }
 
